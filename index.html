@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>zadanie-5</title>
+    <link rel="stylesheet" href="/src/style.css">
+  </head>
+  <body>
+    <h1 class="text-2xl font-bold"> Jak dużo dni minęło od twojej daty urodzenia? </h1>
+    
+    <form id="formularz_urodzinowy">
+      <input type="date" id="data_urodzin">
+      <button type="submit" class="bg-blue-300 p-4"> Sprawdź! </button>
+    </form>
+    
+    <dialog id="wyniki" class="bg-gray-200 text-red-600" relative>
+      <p id="tekst"></p>
+      <button id="przycisk_zamykania" class="absolute top-2 right-2">X</button>
+    </dialog>
+    
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
