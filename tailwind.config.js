@@ -4,7 +4,11 @@ export default {
     "./main.js",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#eb5736',
+      }
+    },
   },
   plugins: [],
 }
